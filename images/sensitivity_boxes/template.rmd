@@ -1,0 +1,12 @@
+---
+title: Supplementary figure 3
+output: 
+  word_document:
+    toc: true
+---
+
+
+### Legend
+
+The following figures show sensitivity analyses for all lipid - complex trait associations with nominal p-values < 0.05. *Heterogeneity in a forest plot, deviations from linearity in a scatter plot, and asymmetry in a funnel plot are potential indications of violations of MR assumptions, e.g. due to horizontal pleiotropy.* Each figure follows the format of Figure 3, containing four different plots that evaluate reliability from different perspectives. Heterogeneity in the plots is indiciative of violations of MR assummptions. a) A forest plot, where each black point represents the causal estimate of the exposure (SD units) on the outcome (log(OR) or SD) produced using each of the exposure instruments separately, and red points show the combined causal estimate using all SNPs together using each of three different methods. Horizontal lines denote 95% confidence intervals. b) A plot relating the effect sizes of the SNP-exposure association (x-axis, SD units) and the SNP-outcome associations (y-axis, log(OR)) with 95% confidence intervals. The slopes of the lines correspond to causal estimates using each of three different methods. c) Leave-one-out sensitivity analysis. Each black point represents the maximum likelihood MR method applied to estimate the causal effect of exposure on outcome excluding that particular variant from the analysis. The red point depicts the estimate using all SNPs. All estimates in this plot are obtained using the inverse variance weighted method. d) Funnel plot showing the relationship between the causal effect of exposure on outcome estimated by each SNP against the inverse of the standard error of the causal estimate. Vertical lines show the MR estimates using all SNPs for each of four different methods.
+

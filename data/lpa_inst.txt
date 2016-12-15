@@ -1,0 +1,2 @@
+SNP beta se pval eaf effect_allele other_allele units Phenotype 
+rs10455872 1.32 0.33928 1e-4 0.08 G A SD Lp(a)

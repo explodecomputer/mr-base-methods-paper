@@ -1,0 +1,144 @@
+---
+title: Supplementary figure 3
+output: 
+  word_document:
+    toc: true
+---
+
+
+### Legend
+
+The following figures show sensitivity analyses for all lipid - complex trait associations with nominal p-values < 0.05. *Heterogeneity in a forest plot, deviations from linearity in a scatter plot, and asymmetry in a funnel plot are potential indications of violations of MR assumptions, e.g. due to horizontal pleiotropy.* Each figure follows the format of Figure 3, containing four different plots that evaluate reliability from different perspectives. Heterogeneity in the plots is indiciative of violations of MR assummptions. a) A forest plot, where each black point represents the causal estimate of the exposure (SD units) on the outcome (log(OR) or SD) produced using each of the exposure instruments separately, and red points show the combined causal estimate using all SNPs together using each of three different methods. Horizontal lines denote 95% confidence intervals. b) A plot relating the effect sizes of the SNP-exposure association (x-axis, SD units) and the SNP-outcome associations (y-axis, log(OR)) with 95% confidence intervals. The slopes of the lines correspond to causal estimates using each of three different methods. c) Leave-one-out sensitivity analysis. Each black point represents the maximum likelihood MR method applied to estimate the causal effect of exposure on outcome excluding that particular variant from the analysis. The red point depicts the estimate using all SNPs. All estimates in this plot are obtained using the inverse variance weighted method. d) Funnel plot showing the relationship between the causal effect of exposure on outcome estimated by each SNP against the inverse of the standard error of the causal estimate. Vertical lines show the MR estimates using all SNPs for each of four different methods.
+
+### Triglycerides on Adiponectin
+
+![](Triglycerides-Adiponectin.png)
+
+### Triglycerides on Alzheimer's disease
+
+![](Triglycerides-Alzheimersdisease.png)
+
+### Triglycerides on Asthma
+
+![](Triglycerides-Asthma.png)
+
+### Triglycerides on Coronary heart disease
+
+![](Triglycerides-Coronaryheartdisease.png)
+
+### Triglycerides on Corrected insulin response
+
+![](Triglycerides-Correctedinsulinresponse.png)
+
+### Triglycerides on Depressive symptoms
+
+![](Triglycerides-Depressivesymptoms.png)
+
+### Triglycerides on Extreme waist-to-hip ratio
+
+![](Triglycerides-Extremewaisttohipratio.png)
+
+### Triglycerides on Former vs current smoker
+
+![](Triglycerides-Formervscurrentsmoker.png)
+
+### Triglycerides on Gout
+
+![](Triglycerides-Gout.png)
+
+### Triglycerides on Height
+
+![](Triglycerides-Height.png)
+
+### Triglycerides on Insulin disposition index
+
+![](Triglycerides-Insulindispositionindex.png)
+
+### Triglycerides on Microalbuminuria
+
+![](Triglycerides-Microalbuminuria.png)
+
+### Triglycerides on Myocardial infarction
+
+![](Triglycerides-Myocardialinfarction.png)
+
+### Triglycerides on Plasma cortisol
+
+![](Triglycerides-Plasmacortisol.png)
+
+### Triglycerides on Primary biliary cirrhosis
+
+![](Triglycerides-Primarybiliarycirrhosis.png)
+
+### Triglycerides on Waist-to-hip ratio
+
+![](Triglycerides-Waisttohipratio.png)
+
+### LDL cholesterol on Alzheimer's disease
+
+![](LDL_cholesterol-Alzheimersdisease.png)
+
+### LDL cholesterol on Body fat
+
+![](LDL_cholesterol-Bodyfat.png)
+
+### LDL cholesterol on Body mass index
+
+![](LDL_cholesterol-Bodymassindex.png)
+
+### LDL cholesterol on Chronotype
+
+![](LDL_cholesterol-Chronotype.png)
+
+### LDL cholesterol on Coronary heart disease
+
+![](LDL_cholesterol-Coronaryheartdisease.png)
+
+### LDL cholesterol on Fasting proinsulin
+
+![](LDL_cholesterol-Fastingproinsulin.png)
+
+### LDL cholesterol on Father’s age at death
+
+![](LDL_cholesterol-Fathersageatdeath.png)
+
+### LDL cholesterol on Inspection time
+
+![](LDL_cholesterol-Inspectiontime.png)
+
+### LDL cholesterol on Myocardial infarction
+
+![](LDL_cholesterol-Myocardialinfarction.png)
+
+### LDL cholesterol on Obesity class 1
+
+![](LDL_cholesterol-Obesityclass1.png)
+
+### LDL cholesterol on Overweight
+
+![](LDL_cholesterol-Overweight.png)
+
+### LDL cholesterol on Parents' age at death
+
+![](LDL_cholesterol-Parentsageatdeath.png)
+
+### LDL cholesterol on Sleep duration
+
+![](LDL_cholesterol-Sleepduration.png)
+
+### LDL cholesterol on Top 1 % survival
+
+![](LDL_cholesterol-Top1survival.png)
+
+### LDL cholesterol on Type 2 diabetes
+
+![](LDL_cholesterol-Type2diabetes.png)
+
+### LDL cholesterol on Waist circumference
+
+![](LDL_cholesterol-Waistcircumference.png)
+
+### LDL cholesterol on Waist-to-hip ratio
+
+![](LDL_cholesterol-Waisttohipratio.png)
+

@@ -1,0 +1,21 @@
+"","exposure","outcome","target","instrument","pathway","test","b","se","pval","ref"
+"2","APOC3 inhibitor","Coronary heart disease","APOC3","rs10790162","Triglycerides","Randomized controlled trial",NA,NA,NA,NA
+"21","APOC3 inhibitor","Coronary heart disease","APOC3","rs10790162","Triglycerides","Mendelian randomization",-0.186772234273319,0.065695010845987,0.00223441281916682,"GLGC 2013, Nikpay et al 2015"
+"13","HMGCR inhibitor","Coronary heart disease","HMGCR","Statins","LDL-C","Randomized controlled trial",-0.27906234400809,0.01175200898871,6.05269741729434e-125,"Ference et al 2012"
+"4","HMGCR inhibitor","Coronary heart disease","HMGCR","rs12916","LDL-C","Mendelian randomization",-0.488772169167803,0.129405184174625,7.93427358141078e-05,"GLGC 2013, Nikpay et al 2015"
+"6","Lp(a) inhibitor","Coronary heart disease","LPA","rs10455872","Lp(a)","Randomized controlled trial",NA,NA,NA,NA
+"61","Lp(a) inhibitor","Coronary heart disease","LPA","rs10455872","Lp(a)","Mendelian randomization",-0.241362121212121,0.0184840151515152,2.86492651792939e-39,"Qi et al 2012, Nikpay et al 2015"
+"11","NPC1L1 inhibitor","Coronary heart disease","NPC1L1","Ezetimibe","LDL-C","Randomized controlled trial",-0.16189427023917,0.0664912888575,0.00744961502150164,"Cannon et al 2015"
+"8","NPC1L1 inhibitor","Coronary heart disease","NPC1L1","rs2073547","LDL-C","Mendelian randomization",-0.425814432989691,0.246931958762887,0.0423160157945279,"GLGC 2013, Nikpay et al 2015"
+"15","PCSK9 inhibitor","Coronary heart disease","PCSK9","Evolocumab","LDL-C","Randomized controlled trial",-0.40555818744075,0.14038508761395,0.00193297276301744,"Sabatine et al 2015"
+"10","PCSK9 inhibitor","Coronary heart disease","PCSK9","rs11591147","LDL-C","Mendelian randomization",-0.51610060362173,0.115208853118712,3.73747647189733e-06,"GLGC 2013, Nikpay et al 2015"
+"1","APOC3 inhibitor","Type 2 diabetes","APOC3","rs10790162","Triglycerides","Randomized controlled trial",NA,NA,NA,NA
+"17","APOC3 inhibitor","Type 2 diabetes","APOC3","rs10790162","Triglycerides","Mendelian randomization",-0.0859116151678959,0.0868471550772234,0.161275863914683,"GLGC 2013, DIAGRAM 2014"
+"14","HMGCR inhibitor","Type 2 diabetes","HMGCR","Statins","LDL-C","Randomized controlled trial",0.2646703301568,0.06389378736933,0.999982811622833,"Swerdlow et al 2015"
+"3","HMGCR inhibitor","Type 2 diabetes","HMGCR","rs12916","LDL-C","Mendelian randomization",0.270158626141883,0.169801779691678,0.944197859262685,"GLGC 2013, DIAGRAM 2014"
+"5","Lp(a) inhibitor","Type 2 diabetes","LPA","rs10455872","Lp(a)","Randomized controlled trial",NA,NA,NA,NA
+"51","Lp(a) inhibitor","Type 2 diabetes","LPA","rs10455872","Lp(a)","Mendelian randomization",0.0150019903759091,0.0359267505685606,0.661869814177519,"Qi et al 2012, DIAGRAM 2014"
+"12","NPC1L1 inhibitor","Type 2 diabetes","NPC1L1","Ezetimibe","LDL-C","Randomized controlled trial",0.09600286294716,0.12590806701384,0.777114349565393,"Cannon et al 2015"
+"7","NPC1L1 inhibitor","Type 2 diabetes","NPC1L1","rs2073547","LDL-C","Mendelian randomization",1.00598276637938,0.44897879734433,0.987474064674969,"GLGC 2013, DIAGRAM 2014"
+"16","PCSK9 inhibitor","Type 2 diabetes","PCSK9","Evolocumab","LDL-C","Randomized controlled trial",0.23419069240485,0.18710720232492,0.894649301857857,"Sabatine et al 2015"
+"9","PCSK9 inhibitor","Type 2 diabetes","PCSK9","rs11591147","LDL-C","Mendelian randomization",0.179986036860966,0.116124110077264,0.939422696068816,"GLGC 2013, DIAGRAM 2012"
