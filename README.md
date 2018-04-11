@@ -37,3 +37,9 @@ Rscript figure_volcano_plots.R
 Rscript tables.R
 ```
 
+## PheWAS scripts
+
+```
+Rscript PheWAS.R
+```
+
