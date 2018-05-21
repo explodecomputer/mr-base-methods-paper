@@ -1,11 +1,7 @@
 # install.packages("devtools")
-# install_github("MRCIEU/TwoSampleMR")
-# install.packages("xtable")
-# install.packages("magrittr")
-# install.packages("plyr")
-# devtools::install_github("MRCIEU/MRInstruments")
 # library(devtools)
-# library(magrittr)
+# install_github("MRCIEU/TwoSampleMR")
+# install.packages("plyr")
 setwd("~/mr-base-methods-paper/data/")
 library(plyr)
 library(TwoSampleMR)
@@ -106,8 +102,6 @@ PheWAS$units<-gsub("decrease","",PheWAS$units)
 
 PheWAS<-PheWAS[order(PheWAS$excl,PheWAS$exposure),]
 
-# write.table(PheWAS,"snplookups.txt",sep="\t",col.names=T,row.names=F,quote=F)
-
 #####################################################################################################################################
 # Further Mendelian randomization analyses were conducted, to assess effect of the traits identified above on coronary heart disease
 #####################################################################################################################################
@@ -127,19 +121,12 @@ ht_gwas<-gwas_catalog[which(gwas_catalog$PubmedID == 19862010),]
 ht_gwas$Phenotype<-ht_gwas$Phenotype_simple 
 ht_gwas<-ht_gwas[ht_gwas$Phenotype %in% c("Hematocrit"),]
 ht_gwas$units[ht_gwas$Phenotype== "Hematocrit"]<-"%"
-# ht_gwas$sd<-3.339
-# ht_gwas$beta<-ht_gwas$beta/3.339
-# ht_gwas$se<-ht_gwas$se/3.339
 
 # systolic and diastolic blood pressure
 bp_gwas1<-gwas_catalog[which(gwas_catalog$PubmedID == 21909115),]
 bp_gwas1$Phenotype<-bp_gwas1$Phenotype_simple 
 bp_gwas1<-bp_gwas1[bp_gwas1$Phenotype_simple != "Hypertension",]
 bp_gwas1$units<-"mmHg"
-# bp_gwas1$sd[bp_gwas1$Phenotype_simple=="Diastolic blood pressure"]<-10.7
-# bp_gwas1$sd[bp_gwas1$Phenotype_simple=="Systolic blood pressure"]<- 18.2
-# SD for diastolic blood pressure =10.7
-# SD for systolic blood pressure = 18.2
 
 # mean arterial pressure
 bp_gwas2<-gwas_catalog[which(gwas_catalog$PubmedID == 21909110),]
@@ -167,7 +154,6 @@ exposure_dat2$instrument.source<-"GWAS catalog"
 
 exposure_dat<-rbind.fill(exposure_dat1,exposure_dat2)
 
-# head(exposure_dat)
 outcome_dat <- extract_outcome_data(unique(exposure_dat$SNP), 7, proxies = 1, rsq = 0.8, align_alleles = 1, palindromes = 1, maf_threshold = 0.3)
 dat <- harmonise_data(exposure_dat, outcome_dat, action = 2)
 mr_results_dat <- mr(dat,method_list = c("mr_wald_ratio","mr_ivw_mre","mr_ivw_fe"))
