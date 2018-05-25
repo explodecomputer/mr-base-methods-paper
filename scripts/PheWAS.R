@@ -148,7 +148,7 @@ pbc_gwas$units<-"log odds"
 
 gwas<-do.call(rbind.fill,list(tet_gwas1,bp_gwas,ht_gwas,pbc_gwas))
 exposure_dat2<-format_data(gwas)
-exposure_dat2<-exposure_dat2[exposure_dat2$SNP!="rs11065987",]
+exposure_dat2[exposure_dat2$SNP=="rs11065987","exposure"]
 exposure_dat3<-clump_data(exposure_dat2)
 exposure_dat2$instrument.source<-"GWAS catalog"
 
@@ -241,4 +241,4 @@ names(mr_ivw_phewas)[names(mr_ivw_phewas)=="nsnp"]<-"nsnp.instrument"
 
 mr_ivw_phewas$b.se.z<-paste(mr_ivw_phewas$b.z," (",mr_ivw_phewas$se.z,")",sep="")
 mr_ivw_phewas$b.se.y<-paste(mr_ivw_phewas$b.y," (",mr_ivw_phewas$se.y,")",sep="")
-write.table(mr_ivw_phewas[,c("exposure","b.se.y","b.se.z","nsnp.instrument","b.y","se.y","pval.y","pmid","b.x","se.x","b.z","se.z","pval.x","phewas.source","instrument.source","method","method.note","x","y","z")],"~/mr_base_paper_elifev2/results/mr_ivw_phewas_clump2.txt",sep="\t",col.names=T,row.names=F,quote=F)
+write.table(mr_ivw_phewas[,c("exposure","b.se.y","b.se.z","nsnp.instrument","b.y","se.y","pval.y","pmid","b.x","se.x","b.z","se.z","pval.x","phewas.source","instrument.source","method","method.note","x","y","z")],"~/mr-base-methods-paper/results/mr_ivw_phewas_clump2.txt",sep="\t",col.names=T,row.names=F,quote=F)
